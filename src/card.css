@@ -106,18 +106,21 @@
     background-color: var(--clr-primary-cyan);
     padding: 0.75rem;
     border-radius: 0.5rem;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--clr-neutral-white);
-    font-weight: var(--fw-body);
+    
     font-size: var(--fw-title);
 }
-
 .button:hover{
     background-color: var(--clr-primary-cyan-hover);
 }
 
 .button-text{
-    margin-left: 1rem;
+    margin-left: 0.6rem;
+    font-weight: var(--fw-body);
+    font-family: var(--ff-title-small);
 }
 
 .price-div{
